@@ -2,11 +2,11 @@
 
 A Daily Journal App built with Flutter.
 
-SETUP INSTRUCTIONS
+# SETUP INSTRUCTIONS
 
-# Replace your supabase url in constants file
+    Replace your supabase url in constants file
 
-# Replace your anaon key in constants file
+    Replace your anaon key in constants file
 
 # In .env in lifelog-supabase folder (used to setup edge function for journal entry)
 
