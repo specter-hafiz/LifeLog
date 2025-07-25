@@ -1,16 +1,28 @@
-# lifelog
+# LifeLog
 
-A new Flutter project.
+A Daily Journal App built with Flutter.
 
-## Getting Started
+SETUP INSTRUCTIONS
 
-This project is a starting point for a Flutter application.
+# Replace your supabase url in constants file
 
-A few resources to get you started if this is your first Flutter project:
+# Replace your anaon key in constants file
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# In .env in lifelog-supabase folder (used to setup edge function for journal entry)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+     Replace your supabase url
+     Replace your SUPABASE_SERVICE_ROLE_KEY in
+
+# Schema design
+
+    journal_entries
+        #id - uuid
+        #created_at - date
+        #user_id - uuid
+        #title - text
+        #body - text
+        #mood - int8
+
+# Limitations
+
+    Didn't handle network connection issues properly
